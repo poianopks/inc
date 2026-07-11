@@ -1,0 +1,38 @@
+# robots.txt for 성실피아노 - 서울·경기·인천 피아노조율 피아노운반
+# https://poianopks.github.io/inc/
+
+User-agent: *
+Allow: /
+
+# 구글 검색봇
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# 구글 이미지봇
+User-agent: Googlebot-Image
+Allow: /
+
+# 네이버 검색봇 (Yeti)
+User-agent: Yeti
+Allow: /
+Crawl-delay: 1
+
+# 네이버 이미지봇
+User-agent: NaverBot
+Allow: /
+
+# 다음 검색봇
+User-agent: Daumoa
+Allow: /
+
+# Bing 검색봇
+User-agent: Bingbot
+Allow: /
+
+# Yahoo 검색봇
+User-agent: Slurp
+Allow: /
+
+# 사이트맵 위치
+Sitemap: https://poianopks.github.io/inc/sitemap.xml
